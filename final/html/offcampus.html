@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Off campus placement</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css\offcampus.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    
+<body>
+    <div class='navContainer'>
+
+        <a href="index.html" class="navLogo">
+            <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <lord-icon
+        src="https://cdn.lordicon.com/etqbfrgp.json"
+        trigger="hover"
+        style="width:50px;height:50px">
+    </lord-icon>
+    
+          </a>
+    
+    
+        <input type="checkbox" id='menu-bar' />
+        <label for="menu-bar">
+            <img src="../assets/header_footer/hamburger.png" alt="hamburger-icon">
+        </label>
+        <nav class="navbar">
+            <ul style="padding-left: 0px;">
+              <a href="./oncampus.html">
+    
+                <li>
+                  <p>On-campus Placement</p>
+                </li>
+              </a>
+              <a href="./offcampus.html">
+                <li>
+                  <p>Off-campus Placement</p>
+                </li>
+              </a>
+              <a href="https://colab.research.google.com/drive/16XnIOoTIO8wMxFsjQR3_NRe17ddqX3bl?usp=sharing">
+                <li>
+                  <p>Resume Parser</p>
+                </li>
+              </a>
+              <a href="./login.html">
+                <li>
+                  <p>SIGN-UP</p>
+                </li>
+              </a>
+              <a href="https://leetcode.com/">
+                <li>
+                  <p>Coding</p>
+                </li>
+              </a>
+              <a href="./teams.html">
+                <li>
+                  <p>Team</p>
+                </li>
+              </a>
+              <a href="./contactus.html">
+                <li>
+                  <p>Contact US</p>
+                </li>
+              </a>
+            </ul>
+          </nav>
+    </div>
+    <div class="container">
+        <header>OFF-CAMPUS PLACEMENT PREDICTOR</header>
+
+        <form>
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="lqr">Logical Quotient Rating</label>
+                            <input type="number" min="1" max = "9" id="lqr" name="logic" placeholder="Enter your logical quotient rating" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="hac">Hackathons</label>
+                            <input type="number" id="hac" name="hackathon" min="0" max = "6" placeholder="Enter no. of Hackathons" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="csr">Coding Skills Rating</label>
+                            <input type="number" min="1" max = "9" id="csr" name="coding" placeholder="Enter your Coding Skills Rating" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="psp">Public Speaking Points</label>
+                            <input type="number" min="1" max = "9" id="psp" name="speaking" placeholder="Enter your Public Speaking Points" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="slc">Self-Learning Capability</label>
+                            <select required>
+                                <option disabled selected>Select Yes/NO</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="ec">Extra-Courses</label>
+                            <select required>
+                                <option disabled selected>Select Yes/NO</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="wor">Workshops</label>
+                            <select required>
+                                <option disabled selected>Select Workshop done</option>
+                                <option>Testing</option>
+                                <option>database security</option>
+                                <option>game development</option>
+                                <option>data science</option>
+                                <option>system designing</option>
+                                <option>hacking</option>
+                                <option>cloud computing</option>
+                                <option>web technologies</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="cer">Certifications</label>
+                            <select required>
+                                <option disabled selected>Select Certifications</option>
+                                <option>information security</option>
+                                <option>shell programming</option>
+                                <option>R programming</option>
+                                <option>distro making</option>
+                                <option>machine learning</option>
+                                <option>full stack</option>
+                                <option>hadoop</option>
+                                <option>app development</option>
+                                <option>python</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="rws">Reading and Writing Skills</label>
+                            <select required>
+                                <option disabled selected>Select skills</option>
+                                <option>poor</option>
+                                <option>medium</option>
+                                <option>excellent</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="mcs">Memory Capability score</label>
+                            <select required>
+                                <option disabled selected>Select score</option>
+                                <option>poor</option>
+                                <option>medium</option>
+                                <option>excellent</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="sub">Subject</label>
+                            <select required>
+                                <option disabled selected>Select Subject Interested In</option>
+                                <option>programming</option>
+                                <option>Management</option>
+                                <option>data engineering</option>
+                                <option>networks</option>
+                                <option>Software Engineering</option>
+                                <option>cloud computing</option>
+                                <option>parallel computing</option>
+                                <option>IOT</option>
+                                <option>Computer Architecture</option>
+                                <option>Hacking</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="car">Career</label>
+                            <select required>
+                                <option disabled selected>Select Career Interested in</option>
+                                <option>Testing</option>
+                                <option>system developer</option>
+                                <option>Business process analyst</option>
+                                <option>security</option>
+                                <option>developer</option>
+                                <option>cloud computing</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="com">Company</label>
+                            <select required>
+                                <option disabled selected>Type of company Interested in</option>
+                                <option>BPA</option>
+                                <option>Cloud Services</option>
+                                <option>product development</option>
+                                <option>Testing and Maintainance Services</option>
+                                <option>SAaS services</option>
+                                <option>Web Services</option>
+                                <option>Finance</option>
+                                <option>Sales and Marketing</option>
+                                <option>Product based</option>
+                                <option>Service Based</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="Seniors">Taken inputs from Seniors/Elders</label>
+                            <select required>
+                                <option disabled selected>Select Yes/NO</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="books">Books</label>
+                            <select required>
+                                <option disabled selected>Select Genre of Books</option>
+                                <option>Series</option>
+                                <option>Autobiographies</option>
+                                <option>Travel</option>
+                                <option>Guide</option>
+                                <option>Health</option>
+                                <option>Journals</option>
+                                <option>Anthology</option>
+                                <option>Dictionaries</option>
+                                <option>Prayer books</option>
+                                <option>Art</option>
+                                <option>Encyclopedias</option>
+                                <option>Religion-Spirituality</option>
+                                <option>Action and Adventure</option>
+                                <option>Comics</option>
+                                <option>Horror</option>
+                                <option>Satire</option>
+                                <option>Self help</option>
+                                <option>History</option>
+                                <option>Cookbooks</option>
+                                <option>Math</option>
+                                <option>Art</option>
+                                <option>Biographies</option>
+                                <option>Drama</option>
+                                <option>Diaries</option>
+                                <option>Science fiction</option>
+                                <option>Poetry</option>
+                                <option>Romance</option>
+                                <option>Science</option>
+                                <option>Trilogy</option>
+                                <option>Fantasy</option>
+                                <option>Childrens</option>
+                                <option>Mystery</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="man">Management or Technical</label>
+                            <select required>
+                                <option disabled selected>Select</option>
+                                <option>Management</option>
+                                <option>Technical</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label for="hsw">Hard/Smart worker</label>
+                            <select required>
+                                <option disabled selected>Select</option>
+                                <option>Hard Worker</option>
+                                <option>Smart Worker</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="wit">Worked in Team</label>
+                            <select required>
+                                <option disabled selected>Select Yes/NO</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="introvert">Introvert?</label>
+                            <select required>
+                                <option disabled selected>Select Yes/NO</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <script>    
+                        function myFunction() {
+                          var h = document.createElement("Congratulations you are chosen for the role of Software Quality Assurance (QA) / Testing. /n The prob is of the role  14.000000000000002 %");
+                          document.body.appendChild(h);
+                      }
+                      </script>
+                        <button onclick="myFunction()" type="submit">Predict</button>
+                        
+                </div>
+
+            </div>
+
+        </form>
+        <!-- prediction goes here from flask -->
+    </div>
+    <script src="../js\offcampus.js"></script>
+</body>
+</html>
